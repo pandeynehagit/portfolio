@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio web design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg" />
+  </head>
+  <body>
+    <header>
+      <div class="top-header">
+        <div class="marquee">
+          <div class="marquee-track">
+            <span>Welcome to my Portfolio! 🚀 </span>
+            <span>Welcome to my Portfolio! 🚀 </span>
+            <span>Welcome to my Portfolio! 🚀 </span>
+            <span>Welcome to my Portfolio! 🚀 </span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">N</div>
+        <div class="logo-text">Portfolio Website</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#skills">Skill</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="mailto:pandey.neha2889@gmail.com" class="button"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h14"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero-blue">
+          <h1><small>Hi I'm</small> Neha, Welcome to my portfolio</h1>
+          <p>A developer from India</p>
+          <div class="call-to-action">
+            <a href="./imgs/resume.pdf" class="button black"> View Resume </a>
+            <a href="mailto:pandey.neha2889@gmail.com" class="button white">
+              contact me
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="#">
+              <img src="./imgs/github.png" alt="GitHub" width="48" />
+            </a>
+            <a href="#">
+              <img src="/imgs/linkedin.png" alt="Linkedin" width="48" />
+            </a>
+          </div>
+        </div>
+        <div class="hero-yellow">
+          <img src="./imgs/profile.jpeg" alt="NEHA" width="100%" />
+        </div>
+      </section>
+      <section class="logos container">
+        <div class="marque">
+          <div class="track">
+            <img src="./imgs/html.png" alt="HTML" width="128" />
+            <img src="./imgs/css.png" alt="CSS" width="128" />
+            <img src="./imgs/javascript.png" alt="js" width="128" />
+            <img src="./imgs/nextjs.png" alt="nextjs" width="128" />
+            <img src="./imgs/vscode.png" alt="vscode" width="128" />
+            <img src="./imgs/download.png" alt="java" width="128" />
+            <img src="./imgs/html.png" alt="HTML" width="128" />
+            <img src="./imgs/css.png" alt="CSS" width="128" />
+            <img src="./imgs/javascript.png" alt="js" width="128" />
+            <img src="./imgs/nextjs.png" alt="nextjs" width="128" />
+            <img src="./imgs/vscode.png" alt="vscode" width="128" />
+            <img src="./imgs/nextjs.png" alt="nextjs" width="128" />
+            <img src="./imgs/download.png" alt="java" width="128" />
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills container">
+        <h2>
+          <small>About me</small>
+          Skills
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>javascript</li>
+              <li>react</li>
+            </ul>
+            <h3>Backend</h3>
+            <ul>
+              <li>node.js</li>
+              <li>Express</li>
+              <li>java</li>
+              <li>mongoose</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>About me</h3>
+            <p>
+              I am a software developer aspirant with a good foundation in Data
+              Structures & Algorithms (DSA) and a keen interest in building
+              efficient, optimized solutions. While I have a solid grasp of
+              problem-solving logic, I am actively improving my ability to write
+              Java code from scratch, focusing on structuring programs
+              effectively. My expertise extends to full-stack development, where
+              I have worked on multiple React projects, including a CV builder
+              app, a cart system with add/remove and coupon logic, and a movie
+              application featuring watchlists, modals for movie details, and a
+              user rating system. In backend development, I am exploring node js
+              and express with Mongoose, aiming to create scalable applications.
+              Additionally, I have hands-on experience implementing
+              authentication, protected routes, and token management in React
+              applications. I am always looking for ways to optimize
+              performance, improve my coding efficiency, and enhance user
+              experience in my projects.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="bento container">
+        <h2>
+          <small>Recent</small>
+          Completed Projects
+        </h2>
+        <div class="bento-grid">
+          <a
+            href="https://monumental-puffpuff-ec7453.netlify.app/"
+            class="bento-item"
+          >
+            <img src="./imgs/imdb.png" alt="movieapp" width="100%" />
+            <h2>imdb clone using react js and tailwind</h2>
+          </a>
+          <a href="" class="bento-item">
+            <img alt="book-my-show" width="100%" />
+            <h2>
+              bookmyshow clone using react ,nodejs, mongoose and antdesign
+            </h2>
+          </a>
+          <a href="#" class="bento-item">
+            <img alt="upcoming-project" width="100%" />
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
