@@ -55,7 +55,8 @@ a {
 
 .marquee-track {
   display: flex;
-  width: calc(50%); /* Double width for seamless effect */
+  /* width: calc(200%); 
+  Double width for seamless effect */
   animation: scrollText 10s linear infinite;
 }
 
@@ -66,6 +67,7 @@ a {
   color:var(--base-100);
   padding-right: 80px; /* Space between messages */
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 /* Animation */
@@ -74,7 +76,7 @@ a {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-80%);
+    transform: translateX(-50%);
   }
 }
 
