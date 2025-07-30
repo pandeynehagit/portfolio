@@ -10,9 +10,9 @@
   --base-100: #f1f1f1;
   --base-800: #000;
   --base-400: #555;
-  --yellow: #ffda4b;
-  --yellow-100: #fffbe6;
-  --yellow--400: #ffda4b;
+  --yellow: #bdb6bb;
+  --yellow-200: #fffbe6;
+  --yellow--100: #ffda4b;
   --yellow-800: #8b6f00;
   --blue: #0a61ae;
   --blue-100: #e2f8ff;
@@ -41,7 +41,7 @@ a {
 
 .top-header {
   background-color: var(--base-800);
-  height: 60px;
+  height: 30px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -55,13 +55,13 @@ a {
 
 .marquee-track {
   display: flex;
-  width: calc(200%); /* Double width for seamless effect */
+  width: calc(50%); /* Double width for seamless effect */
   animation: scrollText 10s linear infinite;
 }
 
 /* Styling the text */
 .marquee-track span {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   color:var(--base-100);
   padding-right: 80px; /* Space between messages */
@@ -74,7 +74,7 @@ a {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-80%);
   }
 }
 
